@@ -1,4 +1,4 @@
-package leetcode.example.twosum;
+package leetcode.problems;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +15,7 @@ import java.util.Map;
  * Because nums[0] + nums[1] = 2 + 7 = 9,
  * return [0, 1].
  */
-public class TwoSum1 {
+public class TwoSum {
 
     /**
      * Brute one
@@ -52,7 +52,7 @@ public class TwoSum1 {
     public static void main(String[] args) {
         int[] nums = new int[]{2,3,4,56,7,8,9,33,44,555,67,88,7777,453,5,101,102,103,104,105,109};
         int target = 38;
-        TwoSum1 sum = new TwoSum1();
+        TwoSum sum = new TwoSum();
 
         int[] result = sum.getTheTwoSum(nums, target);
         if (result != null) {
