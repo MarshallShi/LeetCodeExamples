@@ -16,6 +16,9 @@ package leetcode.problems;
 public class AddTwoNumber {
 
     public static void main(String[] args) {
+        int a = 2302;
+        System.out.println("Binary String: " + Integer.toBinaryString(a));
+        System.out.println("Bit Counts: " + Integer.bitCount(a));
         AddTwoNumber twoNumber = new AddTwoNumber();
         twoNumber.addTwoNumber();
     }
